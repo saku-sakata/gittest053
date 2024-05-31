@@ -1,0 +1,324 @@
+version: 1
+rules:
+  - expected: インターネット
+    pattern: /インタネット/
+  - expected: インターフェイス
+    pattern: /インタフェイス|インタフェース|インターフェース/
+  - expected: カスタマー
+    pattern: /カスタマ(?!ー)/
+  - expected: カテゴリ
+    pattern: /カテゴリー/
+  - expected: クラスター
+    pattern: /クラスタ(?!ー)/
+  - expected: ゲートウェイ
+    pattern: /ゲートウエイ|ゲートウェー|GW/
+  - expected: コンピューター
+    pattern: /コンピュータ(?!ー)/
+  - expected: サーバー
+    pattern: /サーバ(?!ー)/
+  - expected: シミュレーター
+    pattern: /シミュレータ(?!ー)|シュミレーター|シュミレータ(?!ー)/
+  - expected: シミュレーション
+    pattern: /シュミレーション/
+  - expected: セキュリティ
+    pattern: /セキュリティー/
+  - expected: センター
+    pattern: /センタ(?!ー)/
+  - expected: ソフトウェア
+    pattern: /ソフトウェアー|ソフトウエア/
+  - expected: データ
+    pattern: /データー/
+  - expected: ドライバー
+    pattern: /ドライバ(?!ー)|Driver|driver/
+  - expected: パーティション
+    pattern: /パーテーション|パーテション/
+  - expected: ハイパーバイザー
+    pattern: /ハイパーバイザ(?!ー)/
+  - expected: パッケージ
+    pattern: /パッケイジ/
+  - expected: バランサー
+    pattern: /バランサ(?!ー)/
+  - expected: ファイアウォール
+    pattern: /ファイアーウォール|ファイヤウォール|ファイヤーウォール|firewall|FireWall|Firewall/
+  - expected: フェイルオーバー
+    pattern: /フェイルオーバ(?!ー)|フェールオーバー|フェールオーバ(?!ー)/
+  - expected: フォルダー
+    pattern: /フォルダ(?!ー)/
+  - expected: ブラウザー
+    pattern: /ブラウザ(?!ー)/
+  - expected: フレーバー
+    pattern: /フレーバ(?!ー)/
+  - expected: プロバイダー
+    pattern: /プロバイダ(?!ー)/
+  - expected: プロパティ
+    pattern: /プロパティー/
+  - expected: ヘッダー
+    pattern: /ヘッダ(?!ー)/
+  - expected: ベンダー
+    pattern: /ベンダ(?!ー)/
+  - expected: ポリシー
+    pattern: /ポリシ(?!ー)/
+  - expected: マスター
+    pattern: /マスタ(?!ー)/
+  - expected: メーカー
+    pattern: /メーカ(?!ー)/
+  - expected: メモリー
+    pattern: /メモリ(?!ー)/
+  - expected: メンバー
+    pattern: /メンバ(?!ー)/
+  - expected: ユーザー
+    pattern: /ユーザ(?!ー)/
+  - expected: ユーティリティ
+    pattern: /ユーティリティー/
+  - expected: ランチャー
+    pattern: /ランチャ(?!ー)/
+  - expected: リストア
+    pattern: /リストアー/
+  - expected: リポジトリ
+    pattern: /リポジトリー|レポジトリ|レポジトリー|repository/
+  - expected: ルーター
+    pattern: /ルータ(?!ー)/
+  - expected: あらかじめ
+    pattern: /予め/
+  - expected: 新たに
+    pattern: /あらたに/
+  - expected: いずれ
+    pattern: /何れ|いづれ/
+  - expected: いただ$1
+    pattern: /頂([いかきくけこ])|戴[いかきくけこ]/
+  - expected: 一度$1
+    pattern: /いちど([はにのもだで])|1度([はにのもだで])/
+  - expected: ひとたび
+    pattern: /一度/
+  - expected: 一様に
+    pattern: /いちように/
+  - expected: いつ
+    pattern: /何時/
+  - expected: 一緒
+    pattern: /いっしょ/
+  - expected: 一斉
+    pattern: /いっせい/
+  - expected: いったん
+    pattern: /一旦/
+  - expected: いっぱい
+    pattern: /一杯/
+  - expected: 一方
+    pattern: /いっぽう/
+  - expected: いろいろ
+    pattern: /色々/
+  - expected: したうえ
+    pattern: /した上/
+  - expected: そのうえ
+    pattern: /その上/
+  - expected: おおむね
+    pattern: /概ね/
+  - expected: おのおの
+    pattern: /各々/
+  - expected: 主$1
+    pattern: /おも([なにとだで])/
+  - expected: およそ
+    pattern: /おおよそ|凡そ|大凡|大よそ/
+  - expected: および
+    pattern: /及び|ならびに|並びに/
+  - expected: か月
+    pattern: /カ月|ヵ月|ヶ月|ケ月|箇月/
+  - expected: か国
+    pattern: /カ国|ヵ国|ヶ国|ケ国|箇国/
+  - expected: 概して
+    pattern: /がいして/
+  - expected: かえって
+    pattern: /却って/
+  - expected: かかわらず
+    pattern: /([にも])関わらず|([にも])関らず|([にも])拘わらず|([にも])拘らず|([にも])係わらず|([にも])係らず/
+  - expected: 関わる
+    pattern: /かかわる|係る|係わる|拘る|拘わる/
+  - expected: かぎり
+    pattern: /限り/
+  - expected: か所
+    pattern: /個所/
+  - expected: かつ
+    pattern: /且つ/
+  - expected: 必ず
+    pattern: /かならず/
+  - expected: 急きょ
+    pattern: /急遽/
+  - expected: ください
+    pattern: /下さい/
+  - expected: 結局
+    pattern: /けっきょく/
+  - expected: 決して
+    pattern: /けっして|けして/
+  - expected: ごく
+    pattern: /極く/
+  - expected: ごとに
+    pattern: /毎に/
+  - expected: ことさら
+    pattern: /殊更/
+  - expected: この際
+    pattern: /このさい/
+  - expected: 頃
+    pattern: /ころ/
+  - expected: さかのぼ$1
+    pattern: /遡([らりるれろっ])/
+  - expected: さまざま
+    pattern: /様々/
+  - expected: さらに
+    pattern: /更に/
+  - expected: 強いて
+    pattern: /しいて/
+  - expected: しかし
+    pattern: /然し|併し/
+  - expected: じかに
+    pattern: /直に/
+  - expected: しかも
+    pattern: /然も|而も/
+  - expected: 次第$1
+    pattern: /しだい([に])/
+  - expected: しだい
+    pattern: /次第/
+  - expected: したがって
+    pattern: /従って/
+  - expected: しばらく
+    pattern: /暫らく|暫く/
+  - expected: 十分
+    pattern: /充分/
+  - expected: 従来
+    pattern: /じゅうらい/
+  - expected: する
+    pattern: /を行う/
+  - expected: できる
+    pattern: /することができる|する事が出来る|する事ができる|することが出来る/
+  - expected: すでに
+    pattern: /既に/
+  - expected: すなわち
+    pattern: /即ち|則ち|乃ち|すなはち/
+  - expected: 素早
+    pattern: /すばや/
+  - expected: すべて
+    pattern: /全て|凡て|総て/
+  - expected: 速やか
+    pattern: /すみやか/
+  - expected: 絶対に
+    pattern: /ぜったいに/
+  - expected: ただし
+    pattern: /但し/
+  - expected: たとえば
+    pattern: /例えば/
+  - expected: ため
+    pattern: /為/
+  - expected: できる
+    pattern: /出来る/
+  - expected: とおり
+    pattern: /通り|とうり/
+  - expected: ともに
+    pattern: /共に/
+  - expected: なお
+    pattern: /尚/
+  - expected: 中でも
+    pattern: /なかでも/
+  - expected: など
+    pattern: /等/
+  - expected: にく$1
+    pattern: /難([いく])/
+  - expected: をはじめ
+    pattern: /を始め/
+  - expected: 初めて$1
+    pattern: /はじめて([のはがで])/
+  - expected: 引き続き
+    pattern: /ひきつづき/
+  - expected: ひときわ
+    pattern: /ひと際|一際/
+  - expected: 一通り
+    pattern: /ひととおり|ひと通り|一とおり/
+  - expected: ふさわしい
+    pattern: /相応しい/
+  - expected: 再び
+    pattern: /ふたたび/
+  - expected: 別に
+    pattern: /べつに/
+  - expected: 他
+    pattern: /外/
+  - expected: ほか
+    pattern: /外/
+  - expected: ほど
+    pattern: /程/
+  - expected: ほとんど
+    pattern: /殆ど/
+  - expected: まで
+    pattern: /迄/
+  - expected: てみる
+    pattern: /て見る/
+  - expected: または
+    pattern: /又は|もしくは|若しくは|あるいは|或いは/
+  - expected: 申し込み
+    pattern: /申込|申込み/
+  - expected: 最も
+    pattern: /もっとも/
+  - expected: もの
+    pattern: /物/
+  - expected: 漏れなく
+    pattern: /もれなく/
+  - expected: ゆえに
+    pattern: /故に/
+  - expected: 要するに
+    pattern: /ようするに/
+  - expected: ように
+    pattern: /様に/
+  - expected: わかる
+    pattern: /解る|判る|分る|解かる/
+  - expected: CPU使用率
+    pattern: /CPU Utilization/
+  - expected: I/O
+    pattern: /IO/
+  - expected: JST日本標準時
+    pattern: /JST/
+  - expected: Microsoft SQL Server
+    pattern: /SQL Server/
+  - expected: Red Hat
+    pattern: /Redhat|redhat|レッドハット/
+  - expected: UTC協定世界時
+    pattern: /UTC/
+  - expected: VPNゲートウェイ
+    pattern: /VPN-GW/
+  - expected: Windows Server
+    pattern: /Windowsサーバー|Windowsサーバ(?!ー)/
+  - expected: オートスケール
+    pattern: /オートスケーリング/
+  - expected: キーバリュー
+    pattern: /Key Value|key value|KeyValue|keyvalue/
+  - expected: コンピュート
+    pattern: /Compute/
+  - expected: ブート
+    pattern: /Boot/
+  - expected: プルダウンメニュー
+    pattern: /プルダウン/
+  - expected: プロトコル
+    pattern: /Protocol|protocol/
+  - expected: ポート
+    pattern: /port/
+  - expected: ボリューム
+    pattern: /volume|Volume/
+  - expected: モニタリング
+    pattern: /monitoring|Monitoring/
+  - expected: ログアウト
+    pattern: /ログオフ/
+  - expected: ログイン
+    pattern: /ログオン/
+  - expected: ロケール
+    pattern: /locale|Locale/
+  - expected: ロジカルネットワーク
+    pattern: /ロジカルNW/
+  - expected: ビジネスポータル
+    pattern: /カスタマーポータル|ポータル|ビジポ/
+  - expected: Smart Data Platform ポータル
+    pattern: /カスタマーポータル|ポータル|SSS/
+  - expected: ログインポータル
+    pattern: /ポータル|パートナーポータル|GLASS/
+  - expected: お客様契約番号
+    pattern: /契約番号|契約ID|お客様番号/
+  - expected: システム契約ID
+    pattern: /契約番号|契約ID|econ ID|econ/
+  - expected: Smart Data Platform
+    pattern: /SDPF/
+  - expected: ○○コンソール
+    pattern: /(?!-)console|(?!-)SDP|コントロールパネル|ポータル/
