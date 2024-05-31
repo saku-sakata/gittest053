@@ -1,0 +1,34 @@
+name: textlint
+
+on: push
+run-name: main
+    
+jobs:
+  textlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Registry Setting
+        run: set registry https://registry.npmjs.org/
+
+      - name: Install textlint
+        run: >
+          npm install 
+          textlint
+          textlint-rule-prh
+          textlint-rule-preset-ja-technical-writing
+          textlint-plugin-rst
+
+      - name: Install rst-plugin
+        run: pip install -e git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
+
+      - name: Install dependent module
+        run: npm install
+
+      - name: Execute textlint
+        run: npx textlint "2023/Node-AIKC/rts/sdpf/*.rst"
