@@ -31,4 +31,4 @@ jobs:
         run: npm install
 
       - name: Execute textlint
-        run: npx textlint "2023/Node-AIKC/rts/sdpf/*.rst"
+        run: npx textlint "*.txt"
